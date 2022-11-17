@@ -1,0 +1,191 @@
+Total model parameters: 4811509
+Total trainable model parameters: 4811509
+
+Starting training over max 30 epochs...
+----------
+epoch 1/30
+1/4, train_loss: 0.6846 step time: 59.8748
+2/4, train_loss: 0.6824 step time: 51.0840
+3/4, train_loss: 0.6644 step time: 49.3549
+4/4, train_loss: 0.6614 step time: 52.0937
+epoch 1 average loss: 0.6732
+time consuming of epoch 1 is: 212.4182
+----------
+epoch 2/30
+1/4, train_loss: 0.6562 step time: 55.3122
+2/4, train_loss: 0.6510 step time: 49.4959
+3/4, train_loss: 0.6478 step time: 51.7170
+4/4, train_loss: 0.6362 step time: 47.6720
+epoch 2 average loss: 0.6478
+time consuming of epoch 2 is: 204.2052
+/usr/local/lib/python3.7/dist-packages/monai/metrics/hausdorff_distance.py:168: UserWarning: the ground truth of class 1 is all 0, this may result in nan/inf distance.
+  warnings.warn(f"the ground truth of class {c} is all 0, this may result in nan/inf distance.")
+/usr/local/lib/python3.7/dist-packages/numpy/lib/function_base.py:4009: RuntimeWarning: invalid value encountered in subtract
+  diff_b_a = subtract(b, a)
+hd computed is  tensor([[69., nan]], dtype=torch.float64)
+hd computed is  69.0
+hd computed is  tensor([[69., nan]], dtype=torch.float64)
+hd computed is  69.0
+saved new best metric model
+current epoch: 2 current distance: 69.0000
+best distance: 69.0000 at epoch: 2
+----------
+epoch 3/30
+1/4, train_loss: 0.6364 step time: 52.7108
+2/4, train_loss: 0.6360 step time: 49.1804
+3/4, train_loss: 0.6331 step time: 49.9400
+4/4, train_loss: 0.6269 step time: 50.2733
+epoch 3 average loss: 0.6331
+time consuming of epoch 3 is: 202.1104
+----------
+epoch 4/30
+1/4, train_loss: 0.6319 step time: 60.4676
+2/4, train_loss: 0.6217 step time: 52.1125
+3/4, train_loss: 0.6116 step time: 50.4792
+4/4, train_loss: 0.6180 step time: 50.9707
+epoch 4 average loss: 0.6208
+time consuming of epoch 4 is: 214.0357
+hd computed is  tensor([[69., nan]], dtype=torch.float64)
+hd computed is  69.0
+hd computed is  tensor([[69., nan]], dtype=torch.float64)
+hd computed is  69.0
+current epoch: 4 current distance: 69.0000
+best distance: 69.0000 at epoch: 2
+----------
+epoch 5/30
+1/4, train_loss: 0.6220 step time: 53.5655
+2/4, train_loss: 0.6072 step time: 50.9657
+3/4, train_loss: 0.6058 step time: 50.5476
+4/4, train_loss: 0.6028 step time: 51.8212
+epoch 5 average loss: 0.6095
+time consuming of epoch 5 is: 206.9076
+----------
+epoch 6/30
+1/4, train_loss: 0.5976 step time: 50.7273
+2/4, train_loss: 0.5916 step time: 53.0107
+3/4, train_loss: 0.5905 step time: 54.3978
+4/4, train_loss: 0.5865 step time: 48.1375
+epoch 6 average loss: 0.5915
+time consuming of epoch 6 is: 206.2768
+hd computed is  tensor([[50., nan]], dtype=torch.float64)
+hd computed is  50.0
+hd computed is  tensor([[47., nan]], dtype=torch.float64)
+hd computed is  47.0
+saved new best metric model
+current epoch: 6 current distance: 48.5000
+best distance: 48.5000 at epoch: 6
+----------
+epoch 7/30
+1/4, train_loss: 0.5855 step time: 47.1461
+2/4, train_loss: 0.5848 step time: 46.1709
+3/4, train_loss: 0.5776 step time: 44.1679
+4/4, train_loss: 0.5753 step time: 48.5064
+epoch 7 average loss: 0.5808
+time consuming of epoch 7 is: 185.9963
+----------
+epoch 8/30
+1/4, train_loss: 0.5696 step time: 46.2994
+2/4, train_loss: 0.5691 step time: 44.1153
+3/4, train_loss: 0.5746 step time: 46.5517
+4/4, train_loss: 0.5690 step time: 45.6327
+epoch 8 average loss: 0.5706
+time consuming of epoch 8 is: 182.6071
+hd computed is  tensor([[25., nan]], dtype=torch.float64)
+hd computed is  25.0
+hd computed is  tensor([[6., nan]], dtype=torch.float64)
+hd computed is  6.0
+saved new best metric model
+current epoch: 8 current distance: 15.5000
+best distance: 15.5000 at epoch: 8
+----------
+epoch 9/30
+1/4, train_loss: 0.5659 step time: 46.9699
+2/4, train_loss: 0.5631 step time: 48.7111
+3/4, train_loss: 0.5564 step time: 47.0991
+4/4, train_loss: 0.5590 step time: 49.3359
+epoch 9 average loss: 0.5611
+time consuming of epoch 9 is: 192.1222
+----------
+epoch 10/30
+1/4, train_loss: 0.5514 step time: 48.1499
+2/4, train_loss: 0.5573 step time: 47.3161
+3/4, train_loss: 0.5532 step time: 47.6155
+4/4, train_loss: 0.5524 step time: 47.9897
+epoch 10 average loss: 0.5536
+time consuming of epoch 10 is: 191.0763
+hd computed is  tensor([[3., nan]], dtype=torch.float64)
+hd computed is  3.0
+hd computed is  tensor([[3., nan]], dtype=torch.float64)
+hd computed is  3.0
+saved new best metric model
+current epoch: 10 current distance: 3.0000
+best distance: 3.0000 at epoch: 10
+----------
+epoch 11/30
+1/4, train_loss: 0.5480 step time: 47.9446
+2/4, train_loss: 0.5478 step time: 49.7811
+3/4, train_loss: 0.5442 step time: 49.4453
+4/4, train_loss: 0.5450 step time: 47.6722
+epoch 11 average loss: 0.5462
+time consuming of epoch 11 is: 194.8502
+----------
+epoch 12/30
+1/4, train_loss: 0.5433 step time: 50.5196
+2/4, train_loss: 0.5395 step time: 48.6291
+3/4, train_loss: 0.5428 step time: 49.0464
+4/4, train_loss: 0.5364 step time: 51.2712
+epoch 12 average loss: 0.5405
+time consuming of epoch 12 is: 199.4704
+hd computed is  tensor([[3., nan]], dtype=torch.float64)
+hd computed is  3.0
+hd computed is  tensor([[3., nan]], dtype=torch.float64)
+hd computed is  3.0
+current epoch: 12 current distance: 3.0000
+best distance: 3.0000 at epoch: 10
+----------
+epoch 13/30
+1/4, train_loss: 0.5375 step time: 50.0986
+2/4, train_loss: 0.5338 step time: 47.8332
+3/4, train_loss: 0.5341 step time: 50.5384
+4/4, train_loss: 0.5345 step time: 47.2433
+epoch 13 average loss: 0.5350
+time consuming of epoch 13 is: 195.7200
+----------
+epoch 14/30
+1/4, train_loss: 0.5363 step time: 46.8654
+2/4, train_loss: 0.5305 step time: 51.5466
+3/4, train_loss: 0.5285 step time: 47.4858
+4/4, train_loss: 0.5277 step time: 47.9527
+epoch 14 average loss: 0.5307
+time consuming of epoch 14 is: 193.8549
+hd computed is  tensor([[0., nan]], dtype=torch.float64)
+hd computed is  0.0
+/usr/local/lib/python3.7/dist-packages/monai/metrics/hausdorff_distance.py:170: UserWarning: the prediction of class 1 is all 0, this may result in nan/inf distance.
+  warnings.warn(f"the prediction of class {c} is all 0, this may result in nan/inf distance.")
+hd computed is  tensor([[0., nan]], dtype=torch.float64)
+hd computed is  0.0
+saved new best metric model
+current epoch: 14 current distance: 0.0000
+best distance: 0.0000 at epoch: 14
+----------
+epoch 15/30
+1/4, train_loss: 0.5322 step time: 49.7387
+2/4, train_loss: 0.5279 step time: 46.1587
+3/4, train_loss: 0.5258 step time: 49.9235
+4/4, train_loss: 0.5226 step time: 49.9272
+epoch 15 average loss: 0.5271
+time consuming of epoch 15 is: 195.7558
+----------
+epoch 16/30
+1/4, train_loss: 0.5252 step time: 46.7541
+2/4, train_loss: 0.5210 step time: 47.9478
+3/4, train_loss: 0.5238 step time: 54.3692
+4/4, train_loss: 0.5247 step time: 48.3901
+epoch 16 average loss: 0.5237
+time consuming of epoch 16 is: 197.4714
+hd computed is  tensor([[0., nan]], dtype=torch.float64)
+hd computed is  0.0
+hd computed is  tensor([[0., nan]], dtype=torch.float64)
+hd computed is  0.0
+current epoch: 16 current distance: 0.0000
+best distance: 0.0000 at epoch: 14
